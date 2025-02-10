@@ -1,0 +1,12 @@
+{
+  "name": "spotify",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Deborah",
+  "license": "ISC",
+  "description": "A model of Spotify's landing page created during an Alura Front-End Immersion. This project simulates the layout and functionality of the Spotify platform, incorporating JSON-based data for artist and playlist display, with custom design adjustments."
+}

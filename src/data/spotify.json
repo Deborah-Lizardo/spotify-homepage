@@ -1,0 +1,94 @@
+{
+  "artists": [
+    {
+      "id": 1,
+      "name": "Tate McRae",
+      "genre": "Pop",
+      "urlImg": "https://i.scdn.co/image/ab6761670000ecd403ef34bc30e1eb784a95f52a"
+    },
+    {
+      "id": 2,
+      "name": "Bad Bunny",
+      "genre": "Reggaeton",
+      "urlImg": "https://i.scdn.co/image/ab6761670000ecd4a1b2c9183be1d6f8a05ec448"
+    },
+    {
+      "id": 3,
+      "name": "Selena Gomez",
+      "genre": "Pop",
+      "urlImg": "https://i.scdn.co/image/ab6761670000ecd4141bf30d5e9f767f7fe6b7a3"
+    },
+    {
+      "id": 4,
+      "name": "Lizzo",
+      "genre": "Pop",
+      "urlImg": "https://i.scdn.co/image/ab6761670000ecd4d8f1d249b744c674572c9a00"
+    },
+    {
+      "id": 5,
+      "name": "Jorja Smith",
+      "genre": "R&B",
+      "urlImg": "https://i.scdn.co/image/7a9adb96c9e851037db4048580d2ec56dffe3b33"
+    },
+    {
+      "id": 6,
+      "name": "Lil Nas X",
+      "genre": "Hip Hop",
+      "urlImg": "https://i.scdn.co/image/ab6761670000ecd4ef458e46b16688c8ad86cf3b"
+    },
+    {
+      "id": 7,
+      "name": "Doja Cat",
+      "genre": "Pop",
+      "urlImg": "https://i.scdn.co/image/ab67616d00001e020f4f19f09818756f25916e45"
+    },
+    {
+      "id": 8,
+      "name": "Saweetie",
+      "genre": "Hip Hop",
+      "urlImg": "https://i.scdn.co/image/666494b272f6982a58687142864b7850c4c7a479"
+    },
+    {
+      "id": 9,
+      "name": "Billie Eilish",
+      "genre": "Alternative",
+      "urlImg": "https://i.scdn.co/image/ab6761670000ecd40389999699d5f04f38d2866c"
+    },
+    {
+      "id": 10,
+      "name": "Megan Thee Stallion",
+      "genre": "Hip Hop",
+      "urlImg": "https://i.scdn.co/image/6dfedc47f476c4627418d392203debbca7b0abbb"
+    },
+    {
+      "id": 11,
+      "name": "H.E.R.",
+      "genre": "R&B",
+      "urlImg": "https://i.scdn.co/image/ab6772690000dd2272f0175abf0bc463924dc2cb"
+    },
+    {
+      "id": 12,
+      "name": "Harry Styles",
+      "genre": "Pop",
+      "urlImg": "https://i.scdn.co/image/eaecff0e76816cd6db39e6211bfc2d3746b8ca81"
+    },
+    {
+      "id": 13,
+      "name": "The Kid LAROI",
+      "genre": "Hip Hop",
+      "urlImg": "https://i.scdn.co/image/ab6772690000dd228e83124bacc69670683d29ba"
+    },
+    {
+      "id": 14,
+      "name": "Post Malone",
+      "genre": "Pop/Rock",
+      "urlImg": "https://i.scdn.co/image/ab6761670000ecd4f23c60a60c4212779b412789"
+    },
+    {
+      "id": 15,
+      "name": "Ariana Grande",
+      "genre": "Pop",
+      "urlImg": "https://i.scdn.co/image/ab67616d00001e02c5bce200a907e3b21bf20587"
+    }
+  ]
+}

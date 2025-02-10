@@ -1,0 +1,42 @@
+@media screen and (max-width: 1015px) {
+    .scroll-offers {
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        gap: 10px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .filtered-playlists {
+        margin: 16px;
+    }
+
+    .filtered-playlists #greeting {
+        font-size: 24px;
+        margin-bottom: 32px;
+    }
+
+    .filtered-playlists .browse-title {
+        font-size: 20px;
+    }
+
+    .footer-premium {
+        padding: 10px 20px;
+    }
+
+    .footer-premium .footer-premium-title,
+    .footer-premium .footer-premium-subtitle {
+        font-size: 10px;
+    }
+
+    .footer-premium button {
+        font-size: 12px; 
+        padding: 8px 15px; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .filtered-playlists {
+        margin: 8px;
+    }
+}

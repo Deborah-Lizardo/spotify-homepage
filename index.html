@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="icon" href="assets/icons/icon.png" type="image/png">
+    <link rel="stylesheet" href="css/default/reset.css">
+    <link rel="stylesheet" href="css/default/default.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components/header-nav.css">
+    <link rel="stylesheet" href="css/components/footer.css">
+    <link rel="stylesheet" href="css/responsive/media-queries.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" />
+    
+</head>
+<body>
+    <div class="sidebar">
+        <nav class="sidebar-nav">
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/logo/logo-spotify.png" alt="Spotify's Logo">
+                </a>
+            </div>
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="fa fa-home"></span>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fa fa-search"></span>
+                        <span>Search</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="lbr">
+            <div class="lbr_content">
+                <button class="btn_lbr">
+                    <span class="fa fas fa-book"></span>
+                    <span>Your library</span>
+                </button>
+                <span class="fa fa-plus"></span>
+            </div>
+            <section>
+                <div class="playlist">
+                    <span class="tt">Create your first playlist</span>
+                    <span class="ts">It's easy, we'll help you.</span>
+                    <button class="btn_play">
+                        <span class="btn_title">Create playlist</span>
+                    </button>
+                </div>
+            </section>
+            <div class="cookies">
+                <a href="#">Cookies</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">About Ads</a> 
+                <a href="#">Accessibility</a>
+            </div>
+            <div class="lan">
+                <button class="lang_btn">
+                    <span class="fa fa-globe"></span>
+                    <span>English</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="container">
+            <header class="nav-wrapper">
+                <div class="header-controls">
+                    <button class="back">
+                        <img src="assets/icons/small-left.png" alt="Go to previous page">
+                    </button>
+                    <button class="next">
+                        <img src="assets/icons/small-right.png" alt="Go to next page">
+                    </button>
+                    <div class="search">
+                        <img src="assets/icons/search.png" alt="Search icon">
+                        <input type="text" id="search-input" maxlength="400" placeholder="What do you want to play?"/>
+                    </div> 
+                    <div class="actions">
+                        <button class="sign-btn">Sign up</button>
+                        <button class="log-btn">Log in</button>
+                    </div>
+                </div>
+            </header>
+            <section class="playlists">
+                <div id="playlist-gallery">
+                    <div class="filtered-playlists">
+                        <h1 id="greeting">Listening is everything</h1>
+                        <h2 class="browse-title">Browse all</h2>
+                    </div>
+                    
+                    <div class="scroll-container">
+                        <div class="scroll-offers">
+                            <section class="playlist-item__card">
+                                <a href="#" class="cards">
+                                    <div class="cards card1">
+                                        <img src="assets/images/1.jpg" alt="Image of Tate McRae, Canadian artist, promoting her new single 'Sports Car', with the text 'Your Discover Weekly' indicating the personalized Spotify playlist.">
+                                        <span>Discover</span>
+                                    </div>
+                                </a>
+                                
+                                <a href="#" class="cards">
+                                    <div class="cards card2">
+                                        <img src="assets/images/2.jpeg" alt="Image of Olivia Rodrigo's single 'Driver's License' album cover, with the text 'Pop Mix' indicating the Spotify playlist.">
+                                        <span>Made For You</span>
+                                    </div>
+                                </a>
+                                
+                                <a href="#" class="cards">
+                                    <div class="cards card3">
+                                        <img src="assets/images/3.jpeg" alt="Image of Beethoven, representing a Spotify playlist dedicated to his music">
+                                        <span>New releases for you</span>
+                                    </div>
+                                </a>
+                                
+                                <a href="#" class="cards">
+                                    <div class="cards card4">
+                                        <img src="assets/images/4.png" alt="Image of the 'Anything Goes' podcast by Emma Chamberlain, featuring her logo or cover art.">
+                                        <span>Creators</span>
+                                    </div>
+                                </a>
+                                
+                                <a href="#" class="cards">
+                                    <div class="cards card5">
+                                        <img src="assets/images/5.jpg" alt="Image of Adele, promoting her music as part of the 'Soft Pop Songs' Spotify playlist.">
+                                        <span>Charts</span>
+                                    </div>
+                                </a>
+                                
+                                <a href="#" class="cards">
+                                    <div class="cards card6">
+                                        <img src="assets/images/6.png" alt="Image of 2Pac's album cover, representing hip-hop styles.">
+                                        <span>Hip-Hop</span>
+                                    </div>
+                                </a>
+                                
+                                <a href="#" class="cards">
+                                    <div class="cards card7">
+                                        <img src="assets/images/7.jpg" alt="Image representing the 'Top 50 Global' chart playlist on Spotify, showcasing the most popular songs worldwide.">
+                                        <span>Charts</span>
+                                    </div>
+                                </a>
+                                
+                                <a href="#" class="cards">
+                                    <div class="cards card8">
+                                        <img src="assets/images/8.jpg" alt="Image of the 'Highway to Hell' album cover by AC/DC, representing the rock genre.">
+                                        <span>Rock</span>
+                                    </div>
+                                </a>
+                                
+                                <a href="#" class="cards">
+                                    <div class="cards card9">
+                                        <img src="assets/images/9.jpg" alt="Image of the 'Kind of Blue' album cover by Miles Davis, representing one of the greatest jazz albums of all time, featuring artists like Cannonball Adderley, John Coltrane, Bill Evans, and others.">
+                                        <span>Jazz</span>
+                                    </div>
+                                </a>
+                                
+                                <a href="#" class="cards">
+                                    <div class="cards card10">
+                                        <img src="assets/images/10.jpg" alt="Image of Eden, representing his music in the 'Indie Mix' playlist on Spotify, showcasing indie and alternative vibes.">
+                                        <span>Indie</span>
+                                    </div>
+                                </a>
+                                
+                                <a href="#" class="cards">
+                                    <div class="cards card11">
+                                        <img src="assets/images/11.png" alt="Image of Kendrick Lamar, representing a Spotify playlist in the rap genre.">
+                                        <span>Westside Rap</span>
+                                    </div>
+                                </a>
+                                
+                                <a href="#" class="cards">
+                                    <div class="cards card12">
+                                        <img src="assets/images/12.png" alt="Image of Elvis Presley, representing the 'Biggest Songs of the 1950s' playlist on Spotify, highlighting iconic music from the decade.">
+                                        <span>All out 50s</span>
+                                    </div>
+                                </a>
+                                
+                                <a href="#" class="cards">
+                                    <div class="cards card13">
+                                        <img src="assets/images/13.png" alt="Image representing a playlist on Spotify with energetic beats, encouraging listeners to dance and move to the rhythm.">
+                                        <span>Party</span>
+                                    </div>
+                                </a>
+                                
+                                <a href="#" class="cards">
+                                    <div class="cards card14">
+                                        <img src="assets/images/14.png" alt="Image representing a calming playlist on Spotify, featuring a mix of music, water sounds, birds, and peaceful vibes for relaxation.">
+                                        <span>Nature & Noise</span>
+                                    </div>
+                                </a>
+                                
+                                <a href="#" class="cards">
+                                    <div class="cards card15">
+                                        <img src="assets/images/15.png" alt="Image representing the 'Reggaeton Hits' playlist on Spotify, featuring artists like Anitta, Bad Bunny, Nicky Jam, Karol G, and more, with energetic and vibrant vibes.">
+                                        <span>Latin</span>
+                                    </div>
+                                </a>  
+                                
+                                <a href="#" class="cards">
+                                    <div class="cards card16">
+                                        <img src="assets/images/16.png" alt="Image representing a Spotify playlist for late-night driving, featuring high-energy tracks perfect for a nonstop drive or journey.">
+                                        <span>Travel</span>
+                                    </div>
+                                </a>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div id="result-artist" class="hidden">
+                    <div class="grid-container">
+                        <div class="artist-card" id="">
+                            <div class="card-img">
+                                <img id="artist-img" class="artist-img" />
+                                <div class="play">
+                                    <span class="fa fa-solid fa-play"></span>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                <a title="Foo Fighters" class="vst" href="#"></a>
+                                    <span class="artist-name" id="artist-name"></span>
+                                    <span class="artist-categorie">Artist</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer-premium">
+            <div class="footer-premium-text">
+                <p class="footer-premium-title">Try Premium for Free</p>
+                <p class="footer-premium-subtitle">
+                    Sign up to enjoy unlimited music and podcasts with just a few ads. No credit card required.
+                </p>
+            </div>
+            <div class="footer-premium-button">
+                <button type="button">Sign Up for Free</button>
+            </div>
+        </footer>        
+    </main>
+    <script src="src/js/script.js"></script>
+</body>
+</html>

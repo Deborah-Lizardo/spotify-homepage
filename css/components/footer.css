@@ -1,0 +1,41 @@
+.footer-premium {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to right, #101926, #2bdefd, #509bf5, #af2896);
+    padding: 13px 40px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.footer-premium .footer-premium-text {
+    flex-shrink: 0;
+}
+
+.footer-premium .footer-premium-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.footer-premium .footer-premium-subtitle {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.footer-premium button {
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 30px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
