@@ -11,34 +11,33 @@ This project simulates a Spotify landing page, focusing on recreating the layout
 The repository is organized into several folders and files:
 
 /Spotify
-│
-├── index.html              # Main HTML file containing the structure of the page
-├── /assets                 # Folder containing images and static files
-│   ├── /icons              # Folder containing icons
-│   │   ├──                 # Icons used in the landing page
-│   │   
-│   ├── /images             # Folder containing images used in the playlists
-│   │   └── ...             
-│   └── /logo               # Folder containing the Spotify logo
-│       └── spotify-logo.png  # Logo image
-│
-├── /css                    # Folder containing CSS files
-│   ├── main.css            # Main CSS file containing general styles
-│   ├── /components         # Folder containing component-specific CSS files
-│   │   ├── footer.css      # Styles for the footer component
-│   │   └── header-nav.css  # Styles for the header/navigation component
-│   ├── /default            # Folder containing default styles
-│   │   ├── default.css     # Default CSS file (variables and basic styles)
-│   │   └── reset.css       # CSS reset file
-│   └── /responsive         # Folder containing responsive styles
-│       └── media-queries.css # Media query styles for responsiveness
-│
-├── /src                    # Folder containing JavaScript and other core files
-│   ├── /js                 # Folder containing JavaScript files
-│   │   └── script.js       # JavaScript file for handling API requests and DOM manipulation
-│   └── /data               # Folder containing data-related files
-│       ├── package.json    # Default package JSON file
-│       └── spotify.json    # JSON file simulating the database with artist data (name, genre, image URL)
+├── index.html
+├── /assets
+│   ├── /icons
+│   │   ├── icon.png
+│   │   ├── search.png
+│   │   └── other-icons/...
+│   ├── /images
+│   │   └── image1.jpg
+│   └── /logo
+│       └── spotify-logo.png
+├── /css
+│   ├── main.css
+│   ├── /components
+│   │   ├── footer.css
+│   │   └── header-nav.css
+│   ├── /default
+│   │   ├── default.css
+│   │   └── reset.css
+│   └── /responsive
+│       └── media-queries.css
+├── /src
+│   ├── /js
+│   │   └── script.js
+│   └── /data
+│       ├── package.json
+│       └── spotify.json
+
 
 
 ## ⚙️ Technologies Used
